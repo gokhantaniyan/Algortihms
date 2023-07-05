@@ -1,0 +1,31 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+Binary Search Tree'de seçilen kökün sol tarafına kökün kendisinden küçük sayılar, sağ tarafına ise kökün kendisinden büyük sayılar gelir.
+
+Root = 7
+1. Adım 
+Seçilen kökün sol tarafına 5 sağ tarafına 8 gelir.
+
+2. Adım 
+5'in sol tarafına 1, sağ tarafına 6 gelir.
+
+3. Adım
+8'in sağ tarafına 9 gelir.
+
+4. Adım
+1'in sol tarafına 0, sağ tarafına 3 gelir.
+
+5. Adım
+3'ün sol tarafına 2, sağ tarafına  4 gelir.
+
+       7  
+      / \
+     5   8
+    / \   \
+   1   6   9 
+  / \   
+ 0   3  
+    / \
+   2   4  
